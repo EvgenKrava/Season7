@@ -1,0 +1,208 @@
+
+
+
+
+
+2020-09-18T09:02:48Z Bitcoin Core version v0.20.0 (release build)
+2020-09-18T09:02:48Z Qt 5.9.8 (static), plugin=windows (static)
+2020-09-18T09:02:48Z System: Windows 10 (10.0), x86_64-little_endian-llp64
+2020-09-18T09:02:48Z Screen: \\.\DISPLAY1 1920x1080, pixel ratio=1.0
+2020-09-18T09:02:48Z Assuming ancestors of block 0000000000000000000f2adce67e49b0b6bdeb9de8b7c3d7e93b21e7fc1e819d have valid signatures.
+2020-09-18T09:02:48Z Setting nMinimumChainWork=00000000000000000000000000000000000000000e1ab5ec9348e9f4b8eb8154
+2020-09-18T09:02:48Z Using the 'sse4(1way),sse41(4way),avx2(8way)' SHA256 implementation
+2020-09-18T09:02:48Z Using RdSeed as additional entropy source
+2020-09-18T09:02:48Z Using RdRand as an additional entropy source
+2020-09-18T09:02:48Z GUI: "registerShutdownBlockReason: Successfully registered: Bitcoin Core didn't yet exit safely..."
+2020-09-18T09:02:48Z Default data directory C:\Users\Yevhenii\AppData\Roaming\Bitcoin
+2020-09-18T09:02:48Z Using data directory D:\Season7\Blockchain technologies
+2020-09-18T09:02:48Z Config file: D:\Season7\Blockchain technologies\bitcoin.conf (not found, skipping)
+2020-09-18T09:02:48Z Using at most 125 automatic connections (2048 file descriptors available)
+2020-09-18T09:02:48Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2020-09-18T09:02:48Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2020-09-18T09:02:48Z Script verification uses 7 additional threads
+2020-09-18T09:02:48Z scheduler thread start
+2020-09-18T09:02:48Z Using wallet directory D:\Season7\Blockchain technologies
+2020-09-18T09:02:48Z init message: Verifying wallet(s)...
+2020-09-18T09:02:48Z Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2020-09-18T09:02:48Z Using wallet D:\Season7\Blockchain technologies
+2020-09-18T09:02:48Z BerkeleyEnvironment::Open: LogDir=D:\Season7\Blockchain technologies\database ErrorFile=D:\Season7\Blockchain technologies\db.log
+2020-09-18T09:02:48Z init message: Loading banlist...
+2020-09-18T09:02:48Z ERROR: DeserializeFileDB: Failed to open file D:\Season7\Blockchain technologies\banlist.dat
+2020-09-18T09:02:48Z Invalid or missing banlist.dat; recreating
+2020-09-18T09:02:48Z Using /16 prefix for IP bucketing
+2020-09-18T09:02:48Z Cache configuration:
+2020-09-18T09:02:48Z * Using 2.0 MiB for block index database
+2020-09-18T09:02:48Z * Using 8.0 MiB for chain state database
+2020-09-18T09:02:48Z * Using 440.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2020-09-18T09:02:48Z init message: Loading block index...
+2020-09-18T09:02:48Z Opening LevelDB in D:\Season7\Blockchain technologies\blocks\index
+2020-09-18T09:02:48Z Opened LevelDB successfully
+2020-09-18T09:02:48Z Using obfuscation key for D:\Season7\Blockchain technologies\blocks\index: 0000000000000000
+2020-09-18T09:02:48Z LoadBlockIndexDB: last block file = 0
+2020-09-18T09:02:48Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2020-09-18T09:02:48Z Checking all blk files are present...
+2020-09-18T09:02:48Z Initializing databases...
+2020-09-18T09:02:48Z Pre-allocating up to position 0x1000000 in blk00000.dat
+2020-09-18T09:02:48Z Opening LevelDB in D:\Season7\Blockchain technologies\chainstate
+2020-09-18T09:02:48Z Opened LevelDB successfully
+2020-09-18T09:02:48Z Wrote new obfuscate key for D:\Season7\Blockchain technologies\chainstate: 5231ccc3ff261b7c
+2020-09-18T09:02:48Z Using obfuscation key for D:\Season7\Blockchain technologies\chainstate: 5231ccc3ff261b7c
+2020-09-18T09:02:48Z init message: Rewinding blocks...
+2020-09-18T09:02:48Z  block index             273ms
+2020-09-18T09:02:48Z init message: Loading wallet...
+2020-09-18T09:02:48Z BerkeleyEnvironment::Open: LogDir=D:\Season7\Blockchain technologies\database ErrorFile=D:\Season7\Blockchain technologies\db.log
+2020-09-18T09:02:49Z [default wallet] Wallet File Version = 10500
+2020-09-18T09:02:49Z [default wallet] Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total. Unknown wallet records: 0
+2020-09-18T09:02:49Z [default wallet] Performing wallet upgrade to 169900
+2020-09-18T09:02:52Z [default wallet] keypool added 2000 keys (1000 internal), size=2000 (1000 internal)
+2020-09-18T09:02:52Z [default wallet] LegacyScriptPubKeyMan::NewKeyPool rewrote keypool
+2020-09-18T09:02:52Z [default wallet] Wallet completed loading in            3878ms
+2020-09-18T09:02:52Z [default wallet] setKeyPool.size() = 2000
+2020-09-18T09:02:52Z [default wallet] mapWallet.size() = 0
+2020-09-18T09:02:52Z [default wallet] m_address_book.size() = 0
+2020-09-18T09:02:52Z UpdateTip: new best=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f height=0 version=0x00000001 log2_work=32.000022 tx=1 date='2009-01-03T18:15:05Z' progress=0.000000 cache=0.0MiB(0txo)
+2020-09-18T09:02:52Z Failed to open mempool file from disk. Continuing anyway.
+2020-09-18T09:02:52Z block tree size = 1
+2020-09-18T09:02:52Z nBestHeight = 0
+2020-09-18T09:02:52Z torcontrol thread start
+2020-09-18T09:02:52Z Bound to [::]:8333
+2020-09-18T09:02:52Z Bound to 0.0.0.0:8333
+2020-09-18T09:02:52Z init message: Loading P2P addresses...
+2020-09-18T09:02:52Z ERROR: DeserializeFileDB: Failed to open file D:\Season7\Blockchain technologies\peers.dat
+2020-09-18T09:02:52Z Invalid or missing peers.dat; recreating
+2020-09-18T09:02:52Z init message: Starting network threads...
+2020-09-18T09:02:52Z net thread start
+2020-09-18T09:02:52Z init message: Done loading
+2020-09-18T09:02:52Z addcon thread start
+2020-09-18T09:02:52Z dnsseed thread start
+2020-09-18T09:02:52Z Loading addresses from DNS seed seed.bitcoin.sipa.be
+2020-09-18T09:02:52Z opencon thread start
+2020-09-18T09:02:52Z msghand thread start
+2020-09-18T09:02:52Z GUI: Platform customization: "windows"
+2020-09-18T09:02:54Z Loading addresses from DNS seed dnsseed.bluematt.me
+2020-09-18T09:02:54Z Loading addresses from DNS seed seed.bitcoinstats.com
+2020-09-18T09:02:55Z Loading addresses from DNS seed seed.bitcoin.sprovoost.nl
+2020-09-18T09:02:55Z Loading addresses from DNS seed seed.bitcoin.jonasschnelli.ch
+2020-09-18T09:02:55Z Loading addresses from DNS seed seed.btc.petertodd.org
+2020-09-18T09:02:55Z New outbound peer connected: version: 70015, blocks=648892, peer=0 (full-relay)
+2020-09-18T09:02:55Z New outbound peer connected: version: 70015, blocks=648892, peer=1 (full-relay)
+2020-09-18T09:02:58Z Loading addresses from DNS seed dnsseed.emzy.de
+2020-09-18T09:02:58Z Loading addresses from DNS seed dnsseed.bitcoin.dashjr.org
+2020-09-18T09:02:58Z 163 addresses found from DNS seeds
+2020-09-18T09:02:58Z dnsseed thread exit
+2020-09-18T09:03:01Z Synchronizing blockheaders, height: 2000 (~0.33%)
+2020-09-18T09:03:01Z New outbound peer connected: version: 70014, blocks=648892, peer=2 (full-relay)
+2020-09-18T09:03:03Z New outbound peer connected: version: 70015, blocks=648892, peer=3 (full-relay)
+2020-09-18T09:03:06Z Synchronizing blockheaders, height: 4000 (~0.65%)
+2020-09-18T09:03:08Z New outbound peer connected: version: 70015, blocks=648892, peer=4 (full-relay)
+2020-09-18T09:03:09Z Synchronizing blockheaders, height: 6000 (~0.98%)
+2020-09-18T09:03:17Z New outbound peer connected: version: 70015, blocks=648892, peer=5 (full-relay)
+2020-09-18T09:03:23Z New outbound peer connected: version: 70015, blocks=648892, peer=6 (full-relay)
+2020-09-18T09:03:25Z New outbound peer connected: version: 70015, blocks=648892, peer=7 (full-relay)
+2020-09-18T09:03:25Z Synchronizing blockheaders, height: 8000 (~1.31%)
+2020-09-18T09:03:29Z New outbound peer connected: version: 70015, blocks=648892, peer=8 (full-relay)
+2020-09-18T09:03:43Z Synchronizing blockheaders, height: 10000 (~1.63%)
+2020-09-18T09:04:37Z New outbound peer connected: version: 70015, blocks=648892, peer=9 (block-relay)
+2020-09-18T09:04:45Z Synchronizing blockheaders, height: 12000 (~1.96%)
+2020-09-18T09:04:49Z Synchronizing blockheaders, height: 14000 (~2.29%)
+2020-09-18T09:04:50Z Synchronizing blockheaders, height: 16000 (~2.62%)
+2020-09-18T09:04:53Z Synchronizing blockheaders, height: 18000 (~2.96%)
+2020-09-18T09:04:54Z Synchronizing blockheaders, height: 20000 (~3.30%)
+2020-09-18T09:04:55Z Synchronizing blockheaders, height: 22000 (~3.65%)
+2020-09-18T09:04:56Z Synchronizing blockheaders, height: 24000 (~3.99%)
+2020-09-18T09:04:58Z Synchronizing blockheaders, height: 26000 (~4.34%)
+2020-09-18T09:05:00Z Synchronizing blockheaders, height: 28000 (~4.69%)
+2020-09-18T09:05:01Z Synchronizing blockheaders, height: 30000 (~5.04%)
+2020-09-18T09:05:02Z Synchronizing blockheaders, height: 32000 (~5.37%)
+2020-09-18T09:05:02Z Synchronizing blockheaders, height: 34000 (~5.70%)
+2020-09-18T09:05:04Z Synchronizing blockheaders, height: 36000 (~6.04%)
+2020-09-18T09:05:04Z New outbound peer connected: version: 70015, blocks=648892, peer=11 (full-relay)
+2020-09-18T09:05:05Z Synchronizing blockheaders, height: 38000 (~6.37%)
+2020-09-18T09:05:06Z Synchronizing blockheaders, height: 40000 (~6.70%)
+2020-09-18T09:05:07Z Synchronizing blockheaders, height: 42000 (~7.02%)
+2020-09-18T09:05:07Z Synchronizing blockheaders, height: 44000 (~7.35%)
+2020-09-18T09:05:08Z Synchronizing blockheaders, height: 46000 (~7.69%)
+2020-09-18T09:05:09Z Synchronizing blockheaders, height: 48000 (~8.02%)
+2020-09-18T09:05:09Z Synchronizing blockheaders, height: 50000 (~8.34%)
+2020-09-18T09:05:10Z Synchronizing blockheaders, height: 52000 (~8.67%)
+2020-09-18T09:05:21Z Synchronizing blockheaders, height: 54000 (~9.00%)
+2020-09-18T09:05:25Z Synchronizing blockheaders, height: 56000 (~9.33%)
+2020-09-18T09:05:27Z Synchronizing blockheaders, height: 58000 (~9.66%)
+2020-09-18T09:05:29Z Synchronizing blockheaders, height: 60000 (~9.99%)
+2020-09-18T09:05:30Z Synchronizing blockheaders, height: 62000 (~10.32%)
+2020-09-18T09:05:32Z Synchronizing blockheaders, height: 64000 (~10.65%)
+2020-09-18T09:05:35Z Synchronizing blockheaders, height: 66000 (~10.97%)
+2020-09-18T09:05:35Z Synchronizing blockheaders, height: 68000 (~11.27%)
+2020-09-18T09:05:40Z Synchronizing blockheaders, height: 70000 (~11.59%)
+2020-09-18T09:05:42Z Synchronizing blockheaders, height: 72000 (~11.91%)
+2020-09-18T09:05:43Z Synchronizing blockheaders, height: 74000 (~12.23%)
+2020-09-18T09:05:44Z Synchronizing blockheaders, height: 76000 (~12.55%)
+2020-09-18T09:05:45Z Synchronizing blockheaders, height: 78000 (~12.87%)
+2020-09-18T09:05:46Z Synchronizing blockheaders, height: 80000 (~13.19%)
+2020-09-18T09:05:47Z Synchronizing blockheaders, height: 82000 (~13.51%)
+2020-09-18T09:05:48Z Synchronizing blockheaders, height: 84000 (~13.83%)
+2020-09-18T09:05:49Z Synchronizing blockheaders, height: 86000 (~14.15%)
+2020-09-18T09:05:50Z Synchronizing blockheaders, height: 88000 (~14.47%)
+2020-09-18T09:05:51Z Synchronizing blockheaders, height: 90000 (~14.78%)
+2020-09-18T09:05:52Z Synchronizing blockheaders, height: 92000 (~15.09%)
+2020-09-18T09:05:54Z Synchronizing blockheaders, height: 94000 (~15.41%)
+2020-09-18T09:06:06Z Synchronizing blockheaders, height: 96000 (~15.72%)
+2020-09-18T09:06:10Z Synchronizing blockheaders, height: 98000 (~16.04%)
+2020-09-18T09:06:32Z Synchronizing blockheaders, height: 100000 (~16.36%)
+2020-09-18T09:06:35Z Synchronizing blockheaders, height: 102000 (~16.68%)
+2020-09-18T09:06:37Z Synchronizing blockheaders, height: 104000 (~17.00%)
+2020-09-18T09:06:38Z Synchronizing blockheaders, height: 106000 (~17.32%)
+2020-09-18T09:06:39Z Synchronizing blockheaders, height: 108000 (~17.63%)
+2020-09-18T09:06:41Z Synchronizing blockheaders, height: 110000 (~17.94%)
+2020-09-18T09:06:42Z Synchronizing blockheaders, height: 112000 (~18.25%)
+2020-09-18T09:06:43Z Synchronizing blockheaders, height: 114000 (~18.57%)
+2020-09-18T09:06:45Z Synchronizing blockheaders, height: 116000 (~18.89%)
+2020-09-18T09:06:47Z Synchronizing blockheaders, height: 118000 (~19.21%)
+2020-09-18T09:06:48Z Synchronizing blockheaders, height: 120000 (~19.53%)
+2020-09-18T09:06:52Z Synchronizing blockheaders, height: 122000 (~19.84%)
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "MS Shell Dlg 2", script 12
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "Arial", script 12
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "MS UI Gothic", script 12
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "SimSun", script 12
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "MS Shell Dlg 2", script 11
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "Arial", script 11
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "MS UI Gothic", script 11
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "SimSun", script 11
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "MS Shell Dlg 2", script 32
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "Arial", script 32
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "MS UI Gothic", script 32
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "SimSun", script 32
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "MS Shell Dlg 2", script 19
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "Arial", script 19
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "MS UI Gothic", script 19
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "SimSun", script 19
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "MS Shell Dlg 2", script 20
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "Arial", script 20
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "MS UI Gothic", script 20
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "SimSun", script 20
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "MS Shell Dlg 2", script 16
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "Arial", script 16
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "MS UI Gothic", script 16
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "SimSun", script 16
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "MS Shell Dlg 2", script 17
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "Arial", script 17
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "MS UI Gothic", script 17
+2020-09-18T09:06:54Z GUI:   OpenType support missing for "SimSun", script 17
+2020-09-18T09:07:37Z New outbound peer connected: version: 70015, blocks=648892, peer=13 (full-relay)
+2020-09-18T09:07:39Z Synchronizing blockheaders, height: 124000 (~20.14%)
+2020-09-18T09:07:40Z Synchronizing blockheaders, height: 126000 (~20.44%)
+2020-09-18T09:07:42Z tor: Thread interrupt
+2020-09-18T09:07:42Z opencon thread exit
+2020-09-18T09:07:42Z addcon thread exit
+2020-09-18T09:07:42Z Shutdown: In progress...
+2020-09-18T09:07:42Z torcontrol thread exit
+2020-09-18T09:07:42Z net thread exit
+2020-09-18T09:07:43Z msghand thread exit
+2020-09-18T09:07:43Z scheduler thread exit
+2020-09-18T09:07:43Z Dumped mempool: 0s to copy, 0.020945s to dump
+2020-09-18T09:07:44Z FlushStateToDisk: write coins cache to disk (0 coins, 0kB) started
+2020-09-18T09:07:44Z FlushStateToDisk: write coins cache to disk (0 coins, 0kB) completed (0.00s)
+2020-09-18T09:07:44Z FlushStateToDisk: write coins cache to disk (0 coins, 0kB) started
+2020-09-18T09:07:44Z FlushStateToDisk: write coins cache to disk (0 coins, 0kB) completed (0.00s)
+2020-09-18T09:07:44Z [default wallet] Releasing wallet
+2020-09-18T09:07:44Z Shutdown: done
